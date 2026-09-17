@@ -1,0 +1,60 @@
+# PS2Tools — Requirements
+
+## Runtime
+
+* Windows 10/11 x64
+* Optical drive capable of reading PlayStation 2 discs
+* .NET 8 SDK (required only to compile the launcher)
+* PowerShell 7.x (development/build environment)
+
+## Bundled Runtime
+
+* PS2Tools includes a portable PowerShell 7 runtime in PowerShell.Payload.zip.
+* End users do not need to install PowerShell separately.
+
+## Build Requirements
+
+* .NET 8 SDK
+* Windows SDK with SignTool (required only for code signing)
+* PowerShell 7.x
+* Windows x64
+
+## Development
+
+* C# / .NET 8 WinForms launcher
+* PowerShell 7 scripts
+* Offline operation
+* No Internet connection required
+* No external APIs
+* No web scraping
+* No online database required
+
+## Database
+
+* Local JSON database: Database/games.json
+
+## Localization
+
+* JSON language resources stored in Languages/
+* English fallback available
+* Supported languages are defined by the files in Languages/
+
+## Distribution
+
+* Self-contained Windows x64 executable
+* Portable PowerShell runtime bundled with the application
+* No system PowerShell installation required for end users
+* No system .NET installation required for end users
+
+## Code Signing
+
+* SignTool is required only by the developer when signing releases.
+* The private signing certificate (.pfx) must never be distributed or committed to source control.
+* The public certificate (.cer) may be distributed when appropriate.
+
+## Notes
+
+* PS2Tools does not modify physical PlayStation 2 discs.
+* PS2Tools operates entirely offline.
+* The application is designed for Windows x64.
+* The final executable is distributed separately from the development/build artifacts.

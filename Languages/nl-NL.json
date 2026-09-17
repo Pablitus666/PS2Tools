@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "htmlLang": "nl",
+    "name": "Nederlands"
+  },
+  "report": {
+    "title": "PlayStation Disc Identifier",
+    "subtitle": "PS2Tools Version 1 - Technisch offline-rapport",
+    "footer": "PS2Tools Version 1 - lokale analyse - de fysieke schijf wordt niet gewijzigd"
+  },
+  "identification": {
+    "section": "Spelidentificatie",
+    "platform": "Platform:",
+    "region": "Regio:",
+    "publisher": "Uitgever:",
+    "developer": "Ontwikkelaar:",
+    "year": "Jaar:",
+    "genre": "Genre:",
+    "version": "Versie:",
+    "videoMode": "Videomodus:"
+  },
+  "disc": {
+    "section": "Schijfstructuur",
+    "drive": "Station",
+    "files": "Bestanden",
+    "directories": "Mappen",
+    "size": "Grootte",
+    "volumeLabel": "Label:",
+    "fileSystem": "Bestandssysteem:",
+    "rootFiles": "Bestanden in hoofdmap:",
+    "rootDirectories": "Mappen in hoofdmap:",
+    "unavailable": "Niet beschikbaar",
+    "noLabel": "(geen label)"
+  },
+  "boot": {
+    "section": "Opstartbaar uitvoerbaar bestand",
+    "path": "Pad",
+    "size": "Grootte",
+    "notFound": "Fysiek niet gevonden"
+  },
+  "modules": {
+    "section": "IOPRP- en IRX-modules",
+    "ioprp": "IOPRP",
+    "irx": "IRX",
+    "path": "Pad",
+    "size": "Grootte",
+    "notDetected": "Niet gedetecteerd"
+  },
+  "elf": {
+    "section": "ELF-analyse",
+    "file": "Bestand",
+    "role": "Rol",
+    "class": "Klasse",
+    "machine": "Machine",
+    "sha256": "SHA-256",
+    "primary": "Primair uitvoerbaar bestand",
+    "bootExecutable": "BOOT-uitvoerbaar bestand",
+    "secondary": "Secundaire ELF"
+  },
+  "content": {
+    "section": "Schijfinhoud",
+    "group": "Groep",
+    "files": "Bestanden",
+    "size": "Grootte",
+    "extensions": "Extensies",
+    "groups": {
+      "SYSTEM.CNF": "SYSTEM.CNF",
+      "BOOT / ELF PRINCIPAL": "BOOT / PRIMAIRE ELF",
+      "ELF SECUNDARIOS": "SECUNDAIRE ELF",
+      "IOPRP": "IOPRP",
+      "IRX": "IRX",
+      "VIDEO": "VIDEO",
+      "AUDIO": "AUDIO",
+      "IMÁGENES / BINARIOS": "AFBEELDINGEN / BINAIRE BESTANDEN",
+      "DATOS": "GEGEVENS"
+    }
+  },
+  "fingerprint": {
+    "section": "Technische vingerafdruk",
+    "algorithm": "Algoritme:",
+    "version": "Versie:",
+    "type": "Type:",
+    "files": "Bestanden:",
+    "directories": "Mappen:",
+    "size": "Grootte:",
+    "fingerprint": "Vingerafdruk",
+    "bootSha": "BOOT SHA-256",
+    "systemCnfSha": "SYSTEM.CNF SHA-256",
+    "unavailable": "Technische vingerafdruk niet beschikbaar.",
+    "typeStructural": "Structurele technische vingerafdruk"
+  },
+  "features": {
+    "section": "Gedetecteerde functies",
+    "none": "Geen aanvullende functies gedetecteerd."
+  },
+  "systemCnf": {
+    "section": "SYSTEM.CNF",
+    "unavailable": "Niet beschikbaar"
+  },
+  "about": {
+    "aria": "Over PS2Tools",
+    "close": "Sluiten",
+    "subtitle": "PlayStation Disc Identifier V. 1 - Offlinehulpmiddel voor identificatie en technische analyse van PlayStation 2-schijven.",
+    "version": "Versie:",
+    "platform": "Platform:",
+    "technology": "Technologie:",
+    "mode": "Modus:",
+    "offline": "Offline",
+    "developedBy": "ONTWIKKELD DOOR:",
+    "location": "Tarija - Bolivia - 2026"
+  },
+  "messages": {
+    "defaultGame": "PlayStation 2-schijf",
+    "databaseFound": "Gevonden",
+    "databaseNotFound": "Niet gevonden",
+    "databaseUnavailable": "Niet beschikbaar"
+  }
+}

@@ -1,0 +1,91 @@
+# ============================================
+
+# PS2Tools - Git Ignore
+
+# ============================================
+
+# ============================================
+
+# Compilación .NET
+
+# ============================================
+
+bin/
+obj/
+
+# ============================================
+
+# Archivos generados / temporales
+
+# ============================================
+
+Output/
+*.tmp
+*.temp
+*.log
+
+# ============================================
+
+# Herramientas privadas de firma
+
+# ============================================
+
+firmar_app.ps1
+
+# Certificados de firma
+
+Walter_Pablo_Tellez_Ayala_CodeSigning.pfx
+Walter_Pablo_Tellez_Ayala_CodeSigning.cer
+
+# ============================================
+
+# Ejecutables generados localmente
+
+# ============================================
+
+PS2Tools.exe
+
+# ============================================
+
+# Payloads de distribución / compilación
+
+# ============================================
+
+PS2Tools.Payload.zip
+PowerShell.Payload.zip
+
+# ============================================
+
+# Distribución final
+
+# ============================================
+
+PS2Tools-Version-1-Final/
+PS2Tools-Version-1-Final.zip
+
+# ============================================
+
+# Archivos de usuario / IDE
+
+# ============================================
+
+.vs/
+.vscode/
+.idea/
+
+# ============================================
+
+# Archivos de sistema
+
+# ============================================
+
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ============================================
+# Archivos de diseño
+# ============================================
+*.psd
+
+

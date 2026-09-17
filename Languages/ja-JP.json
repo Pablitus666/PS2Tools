@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "htmlLang": "ja",
+    "name": "日本語"
+  },
+  "report": {
+    "title": "PlayStation Disc Identifier",
+    "subtitle": "PS2Tools Version 1 - オフライン技術レポート",
+    "footer": "PS2Tools Version 1 - ローカル解析 - 物理ディスクは変更されません"
+  },
+  "identification": {
+    "section": "ゲーム識別",
+    "platform": "プラットフォーム:",
+    "region": "リージョン:",
+    "publisher": "パブリッシャー:",
+    "developer": "開発元:",
+    "year": "年:",
+    "genre": "ジャンル:",
+    "version": "バージョン:",
+    "videoMode": "ビデオモード:"
+  },
+  "disc": {
+    "section": "ディスク構造",
+    "drive": "ドライブ",
+    "files": "ファイル",
+    "directories": "ディレクトリ",
+    "size": "サイズ",
+    "volumeLabel": "ラベル:",
+    "fileSystem": "ファイルシステム:",
+    "rootFiles": "ルートファイル:",
+    "rootDirectories": "ルートディレクトリ:",
+    "unavailable": "利用できません",
+    "noLabel": "(ラベルなし)"
+  },
+  "boot": {
+    "section": "ブート実行ファイル",
+    "path": "パス",
+    "size": "サイズ",
+    "notFound": "物理ディスク上に見つかりません"
+  },
+  "modules": {
+    "section": "IOPRP および IRX モジュール",
+    "ioprp": "IOPRP",
+    "irx": "IRX",
+    "path": "パス",
+    "size": "サイズ",
+    "notDetected": "検出されませんでした"
+  },
+  "elf": {
+    "section": "ELF 解析",
+    "file": "ファイル",
+    "role": "役割",
+    "class": "クラス",
+    "machine": "マシン",
+    "sha256": "SHA-256",
+    "primary": "メイン実行ファイル",
+    "bootExecutable": "BOOT 実行ファイル",
+    "secondary": "セカンダリ ELF"
+  },
+  "content": {
+    "section": "ディスク内容",
+    "group": "グループ",
+    "files": "ファイル",
+    "size": "サイズ",
+    "extensions": "拡張子",
+    "groups": {
+      "SYSTEM.CNF": "SYSTEM.CNF",
+      "BOOT / ELF PRINCIPAL": "BOOT / メイン ELF",
+      "ELF SECUNDARIOS": "セカンダリ ELF",
+      "IOPRP": "IOPRP",
+      "IRX": "IRX",
+      "VIDEO": "ビデオ",
+      "AUDIO": "オーディオ",
+      "IMÁGENES / BINARIOS": "画像 / バイナリ",
+      "DATOS": "データ"
+    }
+  },
+  "fingerprint": {
+    "section": "技術フィンガープリント",
+    "algorithm": "アルゴリズム:",
+    "version": "バージョン:",
+    "type": "種類:",
+    "files": "ファイル数:",
+    "directories": "ディレクトリ数:",
+    "size": "サイズ:",
+    "fingerprint": "フィンガープリント",
+    "bootSha": "BOOT SHA-256",
+    "systemCnfSha": "SYSTEM.CNF SHA-256",
+    "unavailable": "技術フィンガープリントを利用できません。",
+    "typeStructural": "技術的構造フィンガープリント"
+  },
+  "features": {
+    "section": "検出された機能",
+    "none": "追加の機能は検出されませんでした。"
+  },
+  "systemCnf": {
+    "section": "SYSTEM.CNF",
+    "unavailable": "利用できません"
+  },
+  "about": {
+    "aria": "PS2Tools について",
+    "close": "閉じる",
+    "subtitle": "PlayStation Disc Identifier V. 1 - PlayStation 2 ディスクのオフライン識別・技術解析ツール。",
+    "version": "バージョン:",
+    "platform": "プラットフォーム:",
+    "technology": "技術:",
+    "mode": "モード:",
+    "offline": "オフライン",
+    "developedBy": "開発者:",
+    "location": "Tarija - Bolivia - 2026"
+  },
+  "messages": {
+    "defaultGame": "PlayStation 2 ディスク",
+    "databaseFound": "見つかりました",
+    "databaseNotFound": "見つかりません",
+    "databaseUnavailable": "利用できません"
+  }
+}

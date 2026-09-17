@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "htmlLang": "ko",
+    "name": "한국어"
+  },
+  "report": {
+    "title": "PlayStation Disc Identifier",
+    "subtitle": "PS2Tools Version 1 - 오프라인 기술 보고서",
+    "footer": "PS2Tools Version 1 - 로컬 분석 - 실제 디스크는 수정되지 않습니다"
+  },
+  "identification": {
+    "section": "게임 식별",
+    "platform": "플랫폼:",
+    "region": "지역:",
+    "publisher": "배급사:",
+    "developer": "개발사:",
+    "year": "연도:",
+    "genre": "장르:",
+    "version": "버전:",
+    "videoMode": "비디오 모드:"
+  },
+  "disc": {
+    "section": "디스크 구조",
+    "drive": "드라이브",
+    "files": "파일",
+    "directories": "디렉터리",
+    "size": "크기",
+    "volumeLabel": "레이블:",
+    "fileSystem": "파일 시스템:",
+    "rootFiles": "루트 파일:",
+    "rootDirectories": "루트 디렉터리:",
+    "unavailable": "사용할 수 없음",
+    "noLabel": "(레이블 없음)"
+  },
+  "boot": {
+    "section": "부팅 실행 파일",
+    "path": "경로",
+    "size": "크기",
+    "notFound": "실제 디스크에서 찾을 수 없음"
+  },
+  "modules": {
+    "section": "IOPRP 및 IRX 모듈",
+    "ioprp": "IOPRP",
+    "irx": "IRX",
+    "path": "경로",
+    "size": "크기",
+    "notDetected": "감지되지 않음"
+  },
+  "elf": {
+    "section": "ELF 분석",
+    "file": "파일",
+    "role": "역할",
+    "class": "클래스",
+    "machine": "머신",
+    "sha256": "SHA-256",
+    "primary": "주 실행 파일",
+    "bootExecutable": "BOOT 실행 파일",
+    "secondary": "보조 ELF"
+  },
+  "content": {
+    "section": "디스크 콘텐츠",
+    "group": "그룹",
+    "files": "파일",
+    "size": "크기",
+    "extensions": "확장자",
+    "groups": {
+      "SYSTEM.CNF": "SYSTEM.CNF",
+      "BOOT / ELF PRINCIPAL": "BOOT / 주 ELF",
+      "ELF SECUNDARIOS": "보조 ELF",
+      "IOPRP": "IOPRP",
+      "IRX": "IRX",
+      "VIDEO": "비디오",
+      "AUDIO": "오디오",
+      "IMÁGENES / BINARIOS": "이미지 / 바이너리",
+      "DATOS": "데이터"
+    }
+  },
+  "fingerprint": {
+    "section": "기술 지문",
+    "algorithm": "알고리즘:",
+    "version": "버전:",
+    "type": "유형:",
+    "files": "파일:",
+    "directories": "디렉터리:",
+    "size": "크기:",
+    "fingerprint": "지문",
+    "bootSha": "BOOT SHA-256",
+    "systemCnfSha": "SYSTEM.CNF SHA-256",
+    "unavailable": "기술 지문을 사용할 수 없습니다.",
+    "typeStructural": "기술 구조 지문"
+  },
+  "features": {
+    "section": "감지된 기능",
+    "none": "추가 기능이 감지되지 않았습니다."
+  },
+  "systemCnf": {
+    "section": "SYSTEM.CNF",
+    "unavailable": "사용할 수 없음"
+  },
+  "about": {
+    "aria": "PS2Tools 정보",
+    "close": "닫기",
+    "subtitle": "PlayStation Disc Identifier V. 1 - PlayStation 2 디스크를 위한 오프라인 식별 및 기술 분석 도구.",
+    "version": "버전:",
+    "platform": "플랫폼:",
+    "technology": "기술:",
+    "mode": "모드:",
+    "offline": "오프라인",
+    "developedBy": "개발:",
+    "location": "Tarija - Bolivia - 2026"
+  },
+  "messages": {
+    "defaultGame": "PlayStation 2 디스크",
+    "databaseFound": "찾음",
+    "databaseNotFound": "찾지 못함",
+    "databaseUnavailable": "사용할 수 없음"
+  }
+}

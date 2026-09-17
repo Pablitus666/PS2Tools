@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "htmlLang": "zh-CN",
+    "name": "简体中文"
+  },
+  "report": {
+    "title": "PlayStation Disc Identifier",
+    "subtitle": "PS2Tools Version 1 - 离线技术报告",
+    "footer": "PS2Tools Version 1 - 本地分析 - 不会修改物理光盘"
+  },
+  "identification": {
+    "section": "游戏识别",
+    "platform": "平台：",
+    "region": "地区：",
+    "publisher": "发行商：",
+    "developer": "开发商：",
+    "year": "年份：",
+    "genre": "类型：",
+    "version": "版本：",
+    "videoMode": "视频模式："
+  },
+  "disc": {
+    "section": "光盘结构",
+    "drive": "驱动器",
+    "files": "文件",
+    "directories": "目录",
+    "size": "大小",
+    "volumeLabel": "卷标：",
+    "fileSystem": "文件系统：",
+    "rootFiles": "根目录文件：",
+    "rootDirectories": "根目录：",
+    "unavailable": "不可用",
+    "noLabel": "（无卷标）"
+  },
+  "boot": {
+    "section": "启动可执行文件",
+    "path": "路径",
+    "size": "大小",
+    "notFound": "未在物理光盘中找到"
+  },
+  "modules": {
+    "section": "IOPRP 和 IRX 模块",
+    "ioprp": "IOPRP",
+    "irx": "IRX",
+    "path": "路径",
+    "size": "大小",
+    "notDetected": "未检测到"
+  },
+  "elf": {
+    "section": "ELF 分析",
+    "file": "文件",
+    "role": "角色",
+    "class": "类别",
+    "machine": "机器",
+    "sha256": "SHA-256",
+    "primary": "主可执行文件",
+    "bootExecutable": "BOOT 可执行文件",
+    "secondary": "次要 ELF"
+  },
+  "content": {
+    "section": "光盘内容",
+    "group": "组",
+    "files": "文件",
+    "size": "大小",
+    "extensions": "扩展名",
+    "groups": {
+      "SYSTEM.CNF": "SYSTEM.CNF",
+      "BOOT / ELF PRINCIPAL": "BOOT / 主 ELF",
+      "ELF SECUNDARIOS": "次要 ELF",
+      "IOPRP": "IOPRP",
+      "IRX": "IRX",
+      "VIDEO": "视频",
+      "AUDIO": "音频",
+      "IMÁGENES / BINARIOS": "图像 / 二进制文件",
+      "DATOS": "数据"
+    }
+  },
+  "fingerprint": {
+    "section": "技术指纹",
+    "algorithm": "算法：",
+    "version": "版本：",
+    "type": "类型：",
+    "files": "文件：",
+    "directories": "目录：",
+    "size": "大小：",
+    "fingerprint": "指纹",
+    "bootSha": "BOOT SHA-256",
+    "systemCnfSha": "SYSTEM.CNF SHA-256",
+    "unavailable": "技术指纹不可用。",
+    "typeStructural": "技术结构指纹"
+  },
+  "features": {
+    "section": "检测到的功能",
+    "none": "未检测到其他功能。"
+  },
+  "systemCnf": {
+    "section": "SYSTEM.CNF",
+    "unavailable": "不可用"
+  },
+  "about": {
+    "aria": "关于 PS2Tools",
+    "close": "关闭",
+    "subtitle": "PlayStation Disc Identifier V. 1 - 用于 PlayStation 2 光盘离线识别和技术分析的工具。",
+    "version": "版本：",
+    "platform": "平台：",
+    "technology": "技术：",
+    "mode": "模式：",
+    "offline": "离线",
+    "developedBy": "开发者：",
+    "location": "Tarija - Bolivia - 2026"
+  },
+  "messages": {
+    "defaultGame": "PlayStation 2 光盘",
+    "databaseFound": "已找到",
+    "databaseNotFound": "未找到",
+    "databaseUnavailable": "不可用"
+  }
+}

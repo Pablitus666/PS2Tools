@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "htmlLang": "es",
+    "name": "Español"
+  },
+  "report": {
+    "title": "PlayStation Disc Identifier",
+    "subtitle": "PS2Tools Version 1 - Informe técnico offline",
+    "footer": "PS2Tools Version 1 - análisis local - no se modifica el disco físico"
+  },
+  "identification": {
+    "section": "Identificación del juego",
+    "platform": "Plataforma:",
+    "region": "Región:",
+    "publisher": "Publisher:",
+    "developer": "Developer:",
+    "year": "Año:",
+    "genre": "Género:",
+    "version": "Versión:",
+    "videoMode": "Video Mode:"
+  },
+  "disc": {
+    "section": "Estructura del disco",
+    "drive": "Unidad",
+    "files": "Archivos",
+    "directories": "Directorios",
+    "size": "Tamaño",
+    "volumeLabel": "Etiqueta:",
+    "fileSystem": "Sistema de archivos:",
+    "rootFiles": "Archivos raíz:",
+    "rootDirectories": "Directorios raíz:",
+    "unavailable": "No disponible",
+    "noLabel": "(sin etiqueta)"
+  },
+  "boot": {
+    "section": "Ejecutable de arranque",
+    "path": "Ruta",
+    "size": "Tamaño",
+    "notFound": "No encontrado físicamente"
+  },
+  "modules": {
+    "section": "IOPRP y módulos IRX",
+    "ioprp": "IOPRP",
+    "irx": "IRX",
+    "path": "Ruta",
+    "size": "Tamaño",
+    "notDetected": "No detectado"
+  },
+  "elf": {
+    "section": "Análisis ELF",
+    "file": "Archivo",
+    "role": "Rol",
+    "class": "Clase",
+    "machine": "Máquina",
+    "sha256": "SHA-256",
+    "primary": "Ejecutable principal",
+    "bootExecutable": "Ejecutable BOOT",
+    "secondary": "ELF secundario"
+  },
+  "content": {
+    "section": "Contenido del disco",
+    "group": "Grupo",
+    "files": "Archivos",
+    "size": "Tamaño",
+    "extensions": "Extensiones",
+    "groups": {
+      "SYSTEM.CNF": "SYSTEM.CNF",
+      "BOOT / ELF PRINCIPAL": "BOOT / ELF PRINCIPAL",
+      "ELF SECUNDARIOS": "ELF SECUNDARIOS",
+      "IOPRP": "IOPRP",
+      "IRX": "IRX",
+      "VIDEO": "VIDEO",
+      "AUDIO": "AUDIO",
+      "IMÁGENES / BINARIOS": "IMÁGENES / BINARIOS",
+      "DATOS": "DATOS"
+    }
+  },
+  "fingerprint": {
+    "section": "Huella técnica",
+    "algorithm": "Algoritmo:",
+    "version": "Versión:",
+    "type": "Tipo:",
+    "files": "Archivos:",
+    "directories": "Directorios:",
+    "size": "Tamaño:",
+    "fingerprint": "Fingerprint",
+    "bootSha": "BOOT SHA-256",
+    "systemCnfSha": "SYSTEM.CNF SHA-256",
+    "unavailable": "Huella técnica no disponible.",
+    "typeStructural": "Huella técnica estructural"
+  },
+  "features": {
+    "section": "Características detectadas",
+    "none": "No se detectaron características adicionales."
+  },
+  "systemCnf": {
+    "section": "SYSTEM.CNF",
+    "unavailable": "No disponible"
+  },
+  "about": {
+    "aria": "Acerca de PS2Tools",
+    "close": "Cerrar",
+    "subtitle": "PlayStation Disc Identifier V. 1 - Herramienta de identificación y análisis técnico offline para discos de PlayStation 2.",
+    "version": "Versión:",
+    "platform": "Plataforma:",
+    "technology": "Tecnología:",
+    "mode": "Modo:",
+    "offline": "Offline",
+    "developedBy": "DESARROLLADO POR:",
+    "location": "Tarija - Bolivia - 2026"
+  },
+  "messages": {
+    "defaultGame": "PlayStation 2 Disc",
+    "databaseFound": "Encontrado",
+    "databaseNotFound": "No encontrado",
+    "databaseUnavailable": "No disponible"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "htmlLang": "ru",
+    "name": "Русский"
+  },
+  "report": {
+    "title": "PlayStation Disc Identifier",
+    "subtitle": "PS2Tools Version 1 - Технический отчёт офлайн",
+    "footer": "PS2Tools Version 1 - локальный анализ - физический диск не изменяется"
+  },
+  "identification": {
+    "section": "Идентификация игры",
+    "platform": "Платформа:",
+    "region": "Регион:",
+    "publisher": "Издатель:",
+    "developer": "Разработчик:",
+    "year": "Год:",
+    "genre": "Жанр:",
+    "version": "Версия:",
+    "videoMode": "Видеорежим:"
+  },
+  "disc": {
+    "section": "Структура диска",
+    "drive": "Дисковод",
+    "files": "Файлы",
+    "directories": "Каталоги",
+    "size": "Размер",
+    "volumeLabel": "Метка:",
+    "fileSystem": "Файловая система:",
+    "rootFiles": "Файлы в корне:",
+    "rootDirectories": "Каталоги в корне:",
+    "unavailable": "Недоступно",
+    "noLabel": "(без метки)"
+  },
+  "boot": {
+    "section": "Загрузочный исполняемый файл",
+    "path": "Путь",
+    "size": "Размер",
+    "notFound": "Физически не найден"
+  },
+  "modules": {
+    "section": "Модули IOPRP и IRX",
+    "ioprp": "IOPRP",
+    "irx": "IRX",
+    "path": "Путь",
+    "size": "Размер",
+    "notDetected": "Не обнаружено"
+  },
+  "elf": {
+    "section": "Анализ ELF",
+    "file": "Файл",
+    "role": "Роль",
+    "class": "Класс",
+    "machine": "Машина",
+    "sha256": "SHA-256",
+    "primary": "Основной исполняемый файл",
+    "bootExecutable": "Исполняемый файл BOOT",
+    "secondary": "Вторичный ELF"
+  },
+  "content": {
+    "section": "Содержимое диска",
+    "group": "Группа",
+    "files": "Файлы",
+    "size": "Размер",
+    "extensions": "Расширения",
+    "groups": {
+      "SYSTEM.CNF": "SYSTEM.CNF",
+      "BOOT / ELF PRINCIPAL": "BOOT / ОСНОВНОЙ ELF",
+      "ELF SECUNDARIOS": "ВТОРИЧНЫЕ ELF",
+      "IOPRP": "IOPRP",
+      "IRX": "IRX",
+      "VIDEO": "ВИДЕО",
+      "AUDIO": "АУДИО",
+      "IMÁGENES / BINARIOS": "ИЗОБРАЖЕНИЯ / БИНАРНЫЕ ФАЙЛЫ",
+      "DATOS": "ДАННЫЕ"
+    }
+  },
+  "fingerprint": {
+    "section": "Технический отпечаток",
+    "algorithm": "Алгоритм:",
+    "version": "Версия:",
+    "type": "Тип:",
+    "files": "Файлы:",
+    "directories": "Каталоги:",
+    "size": "Размер:",
+    "fingerprint": "Отпечаток",
+    "bootSha": "SHA-256 BOOT",
+    "systemCnfSha": "SHA-256 SYSTEM.CNF",
+    "unavailable": "Технический отпечаток недоступен.",
+    "typeStructural": "Структурный технический отпечаток"
+  },
+  "features": {
+    "section": "Обнаруженные возможности",
+    "none": "Дополнительные возможности не обнаружены."
+  },
+  "systemCnf": {
+    "section": "SYSTEM.CNF",
+    "unavailable": "Недоступно"
+  },
+  "about": {
+    "aria": "О PS2Tools",
+    "close": "Закрыть",
+    "subtitle": "PlayStation Disc Identifier V. 1 - офлайн-инструмент для идентификации и технического анализа дисков PlayStation 2.",
+    "version": "Версия:",
+    "platform": "Платформа:",
+    "technology": "Технология:",
+    "mode": "Режим:",
+    "offline": "Офлайн",
+    "developedBy": "РАЗРАБОТАНО:",
+    "location": "Tarija - Боливия - 2026"
+  },
+  "messages": {
+    "defaultGame": "Диск PlayStation 2",
+    "databaseFound": "Найдено",
+    "databaseNotFound": "Не найдено",
+    "databaseUnavailable": "Недоступно"
+  }
+}

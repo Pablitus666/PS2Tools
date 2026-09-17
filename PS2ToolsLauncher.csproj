@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup>
+<OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><RuntimeIdentifier>win-x64</RuntimeIdentifier>
+<UseWindowsForms>true</UseWindowsForms><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
+<AssemblyName>PS2Tools</AssemblyName><RootNamespace>PS2ToolsLauncher</RootNamespace><SelfContained>true</SelfContained>
+<PublishSingleFile>true</PublishSingleFile><EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+<DebugType>None</DebugType><DebugSymbols>false</DebugSymbols><PublishTrimmed>false</PublishTrimmed><PublishReadyToRun>false</PublishReadyToRun>
+<ApplicationIcon>icon.ico</ApplicationIcon>
+</PropertyGroup>
+<ItemGroup>
+<EmbeddedResource Include="PS2Tools.Payload.zip" LogicalName="PS2Tools.Payload.zip"/>
+<EmbeddedResource Include="PowerShell.Payload.zip" LogicalName="PowerShell.Payload.zip"/>
+<Content Include="icon.ico"><CopyToOutputDirectory>Never</CopyToOutputDirectory></Content>
+</ItemGroup>
+</Project>
