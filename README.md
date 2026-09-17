@@ -11,31 +11,22 @@ PS2Tools está diseñado desde el principio para funcionar **completamente offli
 ---
 ## 🧱 Tecnologías
 
-![Platform](https://img.shields.io/badge/platform-Windows-0078D6?style=flat\&logo=windows\&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/platform-Windows-0078D6?style=flat&logo=windows&logoColor=white" alt="Windows">
+  <img src="https://img.shields.io/badge/language-C%23-512BD4?style=flat&logo=csharp&logoColor=white" alt="C#">
+  <img src="https://img.shields.io/badge/.NET-8-512BD4?style=flat&logo=dotnet&logoColor=white" alt=".NET 8">
+  <img src="https://img.shields.io/badge/PowerShell-7-5391FE?style=flat&logo=powershell&logoColor=white" alt="PowerShell 7">
+  <img src="https://img.shields.io/badge/UI-WinForms-0078D4?style=flat" alt="WinForms">
+  <img src="https://img.shields.io/badge/database-JSON-000000?style=flat" alt="JSON">
+  <img src="https://img.shields.io/badge/architecture-offline-success?style=flat" alt="Offline">
+  <img src="https://img.shields.io/badge/output-.exe-5C2D91?style=flat" alt="EXE">
+  <img src="https://img.shields.io/badge/architecture-x64-blue?style=flat" alt="x64">
+  <img src="https://img.shields.io/badge/status-stable-brightgreen?style=flat" alt="Stable">
+  <img src="https://img.shields.io/badge/code%20signing-signed-success?style=flat" alt="Signed">
+  <img src="https://img.shields.io/badge/i18n-11%20languages-blue?style=flat" alt="11 languages">
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat" alt="MIT License">
+</p>
 
-![Language](https://img.shields.io/badge/language-C%23-512BD4?style=flat\&logo=csharp\&logoColor=white)
-
-![Framework](https://img.shields.io/badge/.NET-8-512BD4?style=flat\&logo=dotnet\&logoColor=white)
-
-![PowerShell](https://img.shields.io/badge/PowerShell-7-5391FE?style=flat\&logo=powershell\&logoColor=white)
-
-![UI](https://img.shields.io/badge/UI-WinForms-0078D4?style=flat)
-
-![Database](https://img.shields.io/badge/database-JSON-000000?style=flat)
-
-![Architecture](https://img.shields.io/badge/architecture-offline-success?style=flat)
-
-![Executable](https://img.shields.io/badge/output-.exe-5C2D91?style=flat)
-
-![Architecture](https://img.shields.io/badge/architecture-x64-blue?style=flat)
-
-![Status](https://img.shields.io/badge/status-stable-brightgreen?style=flat)
-
-![Security](https://img.shields.io/badge/code%20signing-signed-success?style=flat)
-
-![Localization](https://img.shields.io/badge/i18n-11%20languages-blue?style=flat)
-
-![License](https://img.shields.io/badge/license-MIT-green?style=flat)
 
 ---
 
@@ -508,16 +499,6 @@ Software Developer
 📧 pharmakoz@gmail.com
 
 © 2026 — PS2Tools
-
----
-
-## ⚖️ Nota legal
-
-PS2Tools está destinado al análisis legítimo de discos físicos de PlayStation 2 que sean propiedad del usuario o cuyo análisis esté autorizado.
-
-El software está diseñado para realizar operaciones de lectura y análisis técnico y no modifica físicamente los discos analizados.
-
-El autor no se responsabiliza por usos indebidos del software.
 
 ---
 
