@@ -264,11 +264,13 @@ PS2Tools/
 │
 ├── src/
 │   ├── Bootstrap.ps1
+│   │
 │   ├── Core/
 │   │   ├── Disc.Context.ps1
 │   │   ├── Disc.Report.ps1
 │   │   ├── Disc.Scanner.ps1
-│   │   └── Disc.Utilities.ps1
+│   │   ├── Disc.Utilities.ps1
+│   │   └── Language.Provider.ps1
 │   │
 │   ├── Database/
 │   │   └── Game.Database.ps1
@@ -283,14 +285,14 @@ PS2Tools/
 │
 ├── build.cmd
 ├── Get-PlayStationGame.ps1
-├── PowerShell.Payload.zip
-├── PS2Tools.Payload.zip
 ├── Program.cs
 ├── PS2ToolsLauncher.csproj
+├── LICENSE
 ├── README.md
 ├── RELEASE_DESCRIPTION.md
 ├── requirements.txt
 └── .gitignore
+
 ```
 
 ---
