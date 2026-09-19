@@ -151119,5 +151119,15 @@
     "Region": "PAL / Europa",
     "Version": "Unknown",
     "Year": null
+  },
+  "SCES-53133": {
+    "Developer": "SCE Studio Santa Monica",
+    "Genre": "Action / Platform / Beat'em Up",
+    "Name": "God of War",
+    "Platform": "PlayStation 2",
+    "Publisher": "Sony",
+    "Region": "PAL / Europa",
+    "Version": "1.00",
+    "Year": 2005
   }
 }
